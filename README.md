@@ -252,6 +252,7 @@ Website:
 -> find / -name Flag.txt 2>/dev/null 
 
  DVWA- Training:
+File Inlcusion Vul:
 1. Scan the target with Zapp to find the vulnerability. Then exploit it. It can be file
 upload/ File inclusion vulnerability on DVWA.
 2. msfconsole in one tab next in new tab
