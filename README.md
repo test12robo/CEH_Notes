@@ -411,6 +411,18 @@ ex: which rat tool use port 1177
 step 4:Open the rat application and enter the ip and port.The machine will contains 4 RAT application.Only 1 would work.Hints, Some of the which has server.exe or client.exe along with the main executable 
 
 step 5: Strongly recommended that, please complete the LAB from module 7 lab 1: njrat, prorate,Mosucker, theef  
+OR,
+-> Thief RAT -> Connect to 10.10.55.X -> Authenticate
+
+-> Thief RAT -> File Manager -> Navigate to C:\Users\Username\Documents\Scan
+-> Thief RAT -> File Manager -> Open "Scan" folder -> Count files
+or,
+-> now go to the c drive malware/trojans/rat/theef and run the client.exe file
+-> now entry the ip of open port and click connect and click on file explorer and find
+the flag.txt.
+-> or search file in cmd using command --→ dir /b/s “flag*” it shows the path.
+
+
 
 Wifi: 
 ->Use air-crack for cracking.And you will get the answer /flag 
