@@ -74,7 +74,7 @@ RDP:
 -> decrypt hashcat/john the ripper 
 
 ->crc32 (https://emn178.github.io/online-tools/crc/ )or crc32 <filename>--->use windows ,for linux use linux terminal 
-
+-> try out for file drag&drop: https://emn178.github.io/online-tools/crc32_checksum.html
 Remote Linux/windows: 
 
 -> scan for ssh or telnet or ftp ports as remote login can be either of them  
