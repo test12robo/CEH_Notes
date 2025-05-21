@@ -5,6 +5,7 @@ SMB:
 -Workgroups
 -Security Level Information
 -Domains and Services
+https://medium.com/@zisansakibhaque/network-scanning-101-c47c655f2d98
 Commands:
 
 -> nmap 10.4.29.134
