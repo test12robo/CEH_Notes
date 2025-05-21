@@ -6,17 +6,24 @@ SMB:
 -Security Level Information
 -Domains and Services
 Commands:
+
 -> nmap 10.4.29.134
+
 we know SMB service is running in the port 445
 Now, Enumerating -Network File Shares
+
 -> nmap -p 445 — — script smb-enum-shares 10.4.29.134
 Now, Enumerating -Logged in User details
+
 -> nmap -p 445 — — script smb-enum-users — — script-args smbusername=administrator, smbpassword=smbserver_771 10.4.29.134
 Now, Enumerating -Workgroups
+
 -> nmap -p 445 — — script smb-enum-groups — — script-args smbusername=administrator, smbpassword=smbserver_771 10.4.29.134
 Now, Enumerating -Security Level Information
+
 -> nmap -sC -sV -A -T4 -p445 10.4.29.134
 Now, Enumerating -Domains and Services
+
 -> nmap -p 445 — — script smb-enum-services — — script-args smbusername=administrator, smbpassword=smbserver_771 10.4.29.134
 
 
