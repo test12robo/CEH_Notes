@@ -128,6 +128,7 @@ SSH: p 22
 Telnet: p 23 
 
 -> hydra -l admin -P passlist.txt -o test.txt x.x.x.x telnet 
+-> hydra -l admin -P /path/to/passwords.txt -V telnet://192.168.1.100
 
 -> telnet hostname_or_ip port_number 
 
