@@ -131,6 +131,7 @@ Telnet: p 23
 -> hydra -l admin -P /path/to/passwords.txt -V telnet://192.168.1.100
 
 -> telnet hostname_or_ip port_number 
+-> telnet 192.168.1.100 23
 
 -> find / -type f -name target.txt 2> /dev/null 
 
