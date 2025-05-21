@@ -27,7 +27,8 @@ Now, Enumerating -Domains and Services
 
 -> nmap -p 445 — — script smb-enum-services — — script-args smbusername=administrator, smbpassword=smbserver_771 10.4.29.134
 
-
+Recon:
+subdomain enum and other : https://medium.com/@zisansakibhaque/web-application-security-testing-method-5ed53ab7f168
 Domain admin name: 
 
 FQDN: 
@@ -107,6 +108,7 @@ RDP:
 Remote Linux/windows: 
 
 -> scan for ssh or telnet or ftp ports as remote login can be either of them  
+or, use metasploit (https://medium.com/@zisansakibhaque/network-scanning-101-c47c655f2d98 )
 
 SSH: p 22 
 
